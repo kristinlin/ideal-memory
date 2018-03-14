@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title> Medals </title>
-</head>
-<body>
+  <head>
+    <title> Medals </title>
+  </head>
+  <body style="padding: 25px">
+    <h1>Winter Olympics 2018</h1>
+    <button id="NOR"> Norway </button>
+    <button id="CA"> Canada </button>
+    <br>
+    <svg height="300" width="900" id="place">
+      <circle cx="150" cy="150" r="0"  fill="gold" id ="0"/>
 
-<svg height="300" width="900" id="place">
-  <circle cx="150" cy="150" r="10"  fill="gold" id ="0"/>
+      <circle cx="400" cy="150" r="0" fill="silver" />
 
-  <circle cx="400" cy="150" r="10" fill="silver" />
-
-  <circle cx="650" cy="150" r="10" fill="#CD7F32" />
-</svg> 
-<br>
-  <button id="NOR"> Norway </button>
-  <button id="CA"> Canada </button>
-
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="medals.js"></script>
-</body>
+      <circle cx="650" cy="150" r="0" fill="#CD7F32" />
+    </svg> 
+    <br>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="medals.js"></script>
+  </body>
 </html>
