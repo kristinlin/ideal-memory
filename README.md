@@ -1,2 +1,2 @@
-# ideal-memory
-(softdev pd08) Work 12: Medallions of Data
+# Medallions of Data
+Softdev2- Using D3 to resize medallions based on Winter Olympic wins of two countries.
